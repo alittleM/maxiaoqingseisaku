@@ -1,0 +1,240 @@
+@charset "utf-8";
+body{
+	background-color: #fbfbfb;
+}
+.container{
+	width: 1366px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #111111;
+	font-family:"游ゴシック";
+}
+header{
+	position: relative;
+	display: block;
+}
+header .logo{
+	position: absolute;
+	top: 0;
+	right:0;
+    left: 0;
+	margin:auto;
+    border: 10px solid #fbfbfb;
+/*	visibility:hidden*/
+	
+}
+header nav ul{
+	text-align: center;
+	margin-bottom:25px;
+	padding-top: 23px;
+}
+header nav ul li{
+	display: inline-block;
+	width: 100px;
+	margin-right:0px;
+	padding-right:50px ;
+/*	border: #111111 1px solid;*/
+}
+
+header nav ul li.child4{
+	margin-left: 100px;
+	padding-left: 50px;
+}
+header nav ul li.last-child{
+    padding-right: 0px;
+}
+header nav ul li a{
+	text-decoration: none;
+	font-size: 16px;
+	color:#111111;
+	padding-bottom: 8px;
+}
+header nav ul li a:hover{
+	border-bottom: 1px solid #0E0F0F;
+}
+
+
+
+main {
+	width: 960px;
+	margin:90px auto 70px;
+}
+main .about{
+	text-align: center;
+	border-bottom: solid 1px #cccccc;
+	padding-bottom: 65px;
+}
+main .about h2{
+	font-size: 22px;
+	padding-bottom: 50px;
+}
+main .about p{
+	font-size: 18px;
+	line-height: 30px;
+	padding-bottom: 65px;
+}
+main .about .btn.first-child {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/*すべてのボタン*/
+.btn{
+	width: 250px;
+}
+.btn a{
+	font-size: 18px;
+	color: #111111;
+	font-family:"游ゴシック";
+	text-decoration: none;
+	border: 2px solid #111111;
+	padding: 10px 0px 10px 80px;
+}
+.btn a:after{
+	content: " ";
+	display: inline-block;
+	background-image:url(arrow_icon.png);
+	background-size:10px 15px;
+	width: 10px;
+	height: 15px;
+	background-repeat: no-repeat;
+	margin-left: 70px;
+	padding-right: 15px;
+}
+.btn a:hover{
+	opacity:0.65;/*改变元素透明度全体     rgba()只作用于元素的颜色或其背景色*/
+}
+
+
+
+
+main .News{
+	text-align: center;
+	margin:65px  auto;
+	border-bottom: solid 1px #cccccc;
+}
+main .News h2{
+	font-size:28px;
+}
+main .News ul{
+	margin: 45px auto 60px;
+	width: 645px;
+	height: 170px;
+	overflow-y: scroll;
+}
+main .News li {
+	text-align:left;
+	font-size:18px;
+	list-style-type: none;
+	line-height: 45px;
+}
+
+main .News .group-btn{
+	width: 560px;
+	display: inline-flex;
+	justify-content: space-between;
+	padding-bottom: 65px;
+}
+
+
+
+
+
+main .Search{
+	text-align: center;
+    margin: 65px auto;
+    border-bottom: solid 1px #cccccc;
+}
+main .Search h2{
+	font-size:28px;
+	margin-bottom: 50px;
+}
+main .Search p{
+	font-size: 18px;
+	margin-bottom:35px;
+}
+
+main .Search .isearch{
+	width: 534px;
+	height: 56px;
+	margin:0px auto 65px;
+	background-color:#dddddd;
+	border-radius:50px; 
+}
+main .Search .search_key{
+	background-color:#dddddd;
+    width: 80%;
+    height: 96%;
+    border: none;
+	font-size:18px;
+	Outline: none;    
+    }
+main .Search .submit{
+ 	content: " ";
+	background:url(search_icon.png);
+	background-repeat: no-repeat;	
+	border: none;
+	background-size:30px 30px;
+	width:30px;
+	height:30px;
+}
+
+
+
+
+
+main .Apartment h2{
+	font-size: 28px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+main .Apartment-content{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-between;	
+}
+
+main .Apartment-content .room-pic img{
+	width: 300px;
+	height: 170px;
+}
+main .Apartment-content a{
+	text-decoration: none;
+	color: #111111;
+	font-family:"游ゴシック";
+}
+main .Apartment-content a:hover{
+	opacity:0.5;
+}
+main .Apartment-content .room-pic  a h3{
+	font-size: 16px;
+	padding-top: 10px;
+	padding-bottom:15px;
+}
+main .Apartment-content .room-pic a p{
+	font-size: 14px;
+	padding-bottom: 50px;
+}
+
+
+
+main  .btn.last-child{
+	margin:0px auto;
+	padding-bottom: 15px;
+}
+
+
+
+
+
+footer p{
+	text-align: center;
+	font-size: 10px;
+	color: #fbfbfb;
+	background-color:#111111 ;
+	padding-top:15px ;
+	padding-bottom: 15px;
+}
